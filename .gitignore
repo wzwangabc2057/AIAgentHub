@@ -36,3 +36,5 @@ agents/*/_output.log
 # Claude
 .claude/
 extensions/goal_orchestrator/goals.json
+extensions/goal_orchestrator_v2/goals_v2.json
+extensions/goal_orchestrator_v2/goals_v2_test.json
