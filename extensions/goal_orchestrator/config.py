@@ -7,6 +7,8 @@ class Settings(BaseSettings):
     aiagent_base_url: str = "http://127.0.0.1:9100"
     default_chain_name_prefix: str = "goal"
     data_file: str = "extensions/goal_orchestrator/goals.json"
+    dispatch_5005_url: str = "http://127.0.0.1:5005/ask"
+    dispatch_5005_token: str = "your-token"
 
     class Config:
         env_prefix = "GOAL_ORCH_"
